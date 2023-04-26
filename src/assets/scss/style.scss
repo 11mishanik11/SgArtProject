@@ -1,0 +1,78 @@
+// Обнуление
+@import "style-ziro";
+
+// Шрифты
+@import "fonts";
+
+// Переменные
+@import "vars";
+
+
+// Подключение шрифтов google
+// &display=swap
+// Добавить если нужна кириллица --- &subset=cyrillic ----
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,regular,500,600,300italic,500italic&display=swap&subset=cyrillic");
+@import url("https://fonts.googleapis.com/css?family=PT+Serif:regular,700&display=swap&subset=cyrillic");
+
+
+html,
+body {
+  height: 100%;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #000;
+  background-color: $grey;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+  box-sizing: content-box;
+}
+
+.page {
+    flex: 1 1 auto;
+}
+
+.page__section {
+    padding: 65px 0 75px;
+}
+
+.section-title {
+    margin-bottom: 30px;
+    font-family: "PT Serif";
+    font-weight: 400;
+    text-align: center;
+    font-size: 60px;
+}
+
+.section-title_white {
+    color: #fff;
+}
+
+// Импорт блоков
+@import 'help-classes.scss';
+@import 'blocks/header.scss';
+@import 'blocks/btn.scss';
+@import 'blocks/socials.scss';
+@import 'blocks/contacts.scss';
+@import 'blocks/lang.scss';
+@import 'blocks/menu.scss';
+@import 'blocks/intro.scss';
+@import 'blocks/about.scss';
+@import 'blocks/values.scss';
+@import 'blocks/services.scss';
+@import 'blocks/services-list.scss';
+@import 'blocks/team.scss';
+@import 'blocks/footer.scss';
+
