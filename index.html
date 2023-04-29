@@ -6,6 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/style.min.css" rel="stylesheet">
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+
+
+    <!-- Анимации -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <title>SG Art project - Экскурсии Арт-встречи</title>
 </head>
 
@@ -92,7 +102,7 @@
                 </div>
                 <div class="container">
                     <div class="intro__inner">
-                        <h1 class="intro__title">Разработка и&nbsp;проведение культурных программ</h1>
+                        <h1 class="intro__title" data-aos="fade-up">Разработка и&nbsp;проведение культурных программ</h1>
                     </div>
                 </div>
             </div>
@@ -101,10 +111,10 @@
         <main class="page">
             <section class="page__section  about">
                 <div class="container">
-                    <h2 class="section-title">О компании</h2>
+                    <h2 class="section-title" data-aos="fade-up">О компании</h2>
 
                     <div class="about__inner">
-                        <div class="about__left">
+                        <div class="about__left" data-aos="fade-up-right">
                             <div class="about__desc">
                                 <p><span class="text-black">SG art project –</span> разработка и проведение культурных программ. Вип туры. Экскурсии на русском и английском.</p>
                                 <p>Наш проект направлен на создание культурных мероприятий, которые включают в себя экскурсии, лекции, прогулки, арт-встречи.</p>
@@ -136,7 +146,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="about__right">
+                        <div class="about__right" data-aos="fade-up-left">
                             <div class="about__img">
                                 <img src="assets/images/about/about.jpg" alt="Фото девушки на фоне колонны">
                             </div>
@@ -147,11 +157,11 @@
 
             <section class="page__section  values">
                 <img class="values__decor" src="assets/images/values/decor.png" alt="">
-                <div class="container">
 
-                    <h2 class="section-title  section-title_white">Ценности</h2>
+                <div class="container">
+                    <h2 class="section-title  section-title_white" data-aos="fade-up">Ценности</h2>
                     <div class="values__inner">
-                        <div class="values__col">
+                        <div class="values__col" data-aos="fade-right">
                             <div class="values__item">
                                 <img class="values__icon" src="assets/images/values/experience.svg" alt="">
                                 <div class="values__info">
@@ -162,7 +172,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="values__col">
+                        <div class="values__col" data-aos="fade-right">
                             <div class="values__item">
                                 <img class="values__icon" src="assets/images/values/quality-assurance.svg" alt="">
                                 <div class="values__info">
@@ -173,7 +183,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="values__col">
+                        <div class="values__col" data-aos="fade-right">
                             <div class="values__item">
                                 <img class="values__icon" src="assets/images/values/working-at-home.svg" alt="">
                                 <div class="values__info">
@@ -184,7 +194,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="values__col">
+                        <div class="values__col" data-aos="fade-right">
                             <div class="values__item">
                                 <img class="values__icon" src="assets/images/values/lightness.svg" alt="">
                                 <div class="values__info">
@@ -195,7 +205,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="values__col">
+                        <div class="values__col" data-aos="fade-right">
                             <div class="values__item">
                                 <img class="values__icon" src="assets/images/values/licensing.svg" alt="">
                                 <div class="values__info">
@@ -206,7 +216,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="values__col">
+                        <div class="values__col" data-aos="fade-right">
                             <div class="values__item">
                                 <img class="values__icon" src="assets/images/values/aesthetics.svg" alt="">
                                 <div class="values__info">
@@ -228,14 +238,14 @@
                     </div>
 
                     <div class="container">
-                        <h2 class="section-title">Наши услуги</h2>
+                        <h2 class="section-title" data-aos="fade-up">Наши услуги</h2>
 
                         <div class="item-services__inner">
                             <div class="item-services__top">
-                                <div class="item-services__preview">
+                                <div class="item-services__preview" data-aos="fade-right">
                                     <img src="assets/images/services/preview.jpg" alt="">
                                 </div>
-                                <div class="item-services__info">
+                                <div class="item-services__info" data-aos="fade-left">
                                     <h3 class="item-services__title">Обзорные экскурсии по Санкт-Петербургу</h3>
                                     <p class="item-services__desc">
                                         Индивидуальный маршрут с акцентом на главные достопримечательности Санкт-Петербурга, символы и архитектурные особенности города. Погрузимся в историю города с увлекательным рассказом о жизни, людях, событиях.
@@ -243,7 +253,7 @@
                                     <a class="btn  item-services__btn" href="/services-list.html">Программы</a>
                                 </div>
                             </div>
-                            <div class="item-services__bottom">
+                            <div class="item-services__bottom" data-aos="fade-up">
                                 <div class="item-services__col"><img src="assets/images/services/1.jpg" alt=""></div>
                                 <div class="item-services__col"><img src="assets/images/services/2.jpg" alt=""></div>
                                 <div class="item-services__col"><img src="assets/images/services/3.jpg" alt=""></div>
@@ -261,10 +271,10 @@
                     <div class="container">
                         <div class="item-services__inner">
                             <div class="item-services__top">
-                                <div class="item-services__preview">
+                                <div class="item-services__preview" data-aos="fade-right">
                                     <img src="assets/images/services/preview.jpg" alt="">
                                 </div>
-                                <div class="item-services__info">
+                                <div class="item-services__info" data-aos="fade-left">
                                     <h3 class="item-services__title">Обзорные экскурсии по Санкт-Петербургу</h3>
                                     <p class="item-services__desc">
                                         Индивидуальный маршрут с акцентом на главные достопримечательности Санкт-Петербурга, символы и архитектурные особенности города. Погрузимся в историю города с увлекательным рассказом о жизни, людях, событиях.
@@ -272,65 +282,7 @@
                                     <a class="btn  item-services__btn" href="/services-list.html">Программы</a>
                                 </div>
                             </div>
-                            <div class="item-services__bottom">
-                                <div class="item-services__col"><img src="assets/images/services/1.jpg" alt=""></div>
-                                <div class="item-services__col"><img src="assets/images/services/2.jpg" alt=""></div>
-                                <div class="item-services__col"><img src="assets/images/services/3.jpg" alt=""></div>
-                                <div class="item-services__col"><img src="assets/images/services/4.jpg" alt=""></div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="page__section  services__item  item-services">
-                    <div class="item-services__bg">
-                        <img src="assets/images/services/bg-1.jpg" alt="">
-                    </div>
-
-                    <div class="container">
-                        <div class="item-services__inner">
-                            <div class="item-services__top">
-                                <div class="item-services__preview">
-                                    <img src="assets/images/services/preview.jpg" alt="">
-                                </div>
-                                <div class="item-services__info">
-                                    <h3 class="item-services__title">Обзорные экскурсии по Санкт-Петербургу</h3>
-                                    <p class="item-services__desc">
-                                        Индивидуальный маршрут с акцентом на главные достопримечательности Санкт-Петербурга, символы и архитектурные особенности города. Погрузимся в историю города с увлекательным рассказом о жизни, людях, событиях.
-                                    </p>
-                                    <a class="btn  item-services__btn" href="/services-list.html">Программы</a>
-                                </div>
-                            </div>
-                            <div class="item-services__bottom">
-                                <div class="item-services__col"><img src="assets/images/services/1.jpg" alt=""></div>
-                                <div class="item-services__col"><img src="assets/images/services/2.jpg" alt=""></div>
-                                <div class="item-services__col"><img src="assets/images/services/3.jpg" alt=""></div>
-                                <div class="item-services__col"><img src="assets/images/services/4.jpg" alt=""></div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="page__section  services__item  item-services">
-                    <div class="item-services__bg">
-                        <img src="assets/images/services/bg-1.jpg" alt="">
-                    </div>
-
-                    <div class="container">
-                        <div class="item-services__inner">
-                            <div class="item-services__top">
-                                <div class="item-services__preview">
-                                    <img src="assets/images/services/preview.jpg" alt="">
-                                </div>
-                                <div class="item-services__info">
-                                    <h3 class="item-services__title">Обзорные экскурсии по Санкт-Петербургу</h3>
-                                    <p class="item-services__desc">
-                                        Индивидуальный маршрут с акцентом на главные достопримечательности Санкт-Петербурга, символы и архитектурные особенности города. Погрузимся в историю города с увлекательным рассказом о жизни, людях, событиях.
-                                    </p>
-                                    <a class="btn  item-services__btn" href="/services-list.html">Программы</a>
-                                </div>
-                            </div>
-                            <div class="item-services__bottom">
+                            <div class="item-services__bottom" data-aos="fade-up">
                                 <div class="item-services__col"><img src="assets/images/services/1.jpg" alt=""></div>
                                 <div class="item-services__col"><img src="assets/images/services/2.jpg" alt=""></div>
                                 <div class="item-services__col"><img src="assets/images/services/3.jpg" alt=""></div>
@@ -346,9 +298,9 @@
                 <img class="team__decor" src="assets/images/team/decor.png" alt="">
 
                 <div class="container">
-                    <h2 class="section-title  section-title_white">Гиды и спикеры</h2>
+                    <h2 class="section-title  section-title_white" data-aos="fade-up">Гиды и спикеры</h2>
                     <div class="team__inner">
-                        <div class="team__col">
+                        <div class="team__col" data-aos="fade-right">
                             <div class="team__item">
                                 <div class="tema__header">
                                     <a class="team__btn" href="#"></a>
@@ -362,7 +314,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="team__col">
+                        <div class="team__col" data-aos="fade-right">
                             <div class="team__item  special">
                                 <div class="tema__header">
                                     <a class="team__btn" href="#"></a>
@@ -376,7 +328,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="team__col">
+                        <div class="team__col" data-aos="fade-right">
                             <div class="team__item">
                                 <div class="tema__header">
                                     <a class="team__btn" href="#"></a>
@@ -390,7 +342,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="team__col">
+                        <div class="team__col" data-aos="fade-right">
                             <div class="team__item">
                                 <div class="tema__header">
                                     <a class="team__btn" href="#"></a>
@@ -404,7 +356,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="team__col">
+                        <div class="team__col" data-aos="fade-right">
                             <div class="team__item  special">
                                 <div class="tema__header">
                                     <a class="team__btn" href="#"></a>

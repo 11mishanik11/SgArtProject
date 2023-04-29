@@ -6,6 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/style.min.css" rel="stylesheet">
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+
+
+    <!-- Анимации -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <title>SG Art project - Отзывы</title>
 </head>
 
@@ -88,24 +98,91 @@
                 <div class="container">
                     <div class="intro__inner  intro__inner_padding_s">
                         <div>Хлебные крошки..</div>
-                        <h1 class="intro__title  intro__title_s">Отзывы</h1>
+                        <h1 class="intro__title  intro__title_s" data-aos="fade-up">Отзывы</h1>
                     </div>
                 </div>
             </div>
         </header>
 
         <main class="page">
-            Отзывы!!
+            <div class="page__section  reviews">
+                <div class="container">
+                    <div class="reviews__inner">
+                        <div class="reviews__slider">
+                            <div class="reviews__item  reviews-slide">
+                                <div class="reviews-slide__inner">
+                                    <div class="reviews-slide__header">
+                                        <div class="reviews__user">
+                                            <div class="reviews-slide__img">
+                                                <img src="assets/images/reviews/placehold.jpg" alt="">
+                                            </div>
+                                            <div class="reviews-slide__name">Людмила</div>
+                                        </div>
+                                        <div class="reviews-slide__stars">
+                                            <span class="reviews-slide__star"><img src="assets/images/icon-star.png" alt=""></span>
+                                            <span class="reviews-slide__star"><img src="assets/images/icon-star.png" alt=""></span>
+                                            <span class="reviews-slide__star"><img src="assets/images/icon-star.png" alt=""></span>
+                                            <span class="reviews-slide__star"><img src="assets/images/icon-star.png" alt=""></span>
+                                            <span class="reviews-slide__star"><img src="assets/images/icon-star.png" alt=""></span>
+                                        </div>
+                                    </div>
+                                    <div class="reviews-slide__text">Огромная благодарность Софии за увлекательнейшее путешествие по городу и музеям! Увидела город с другой стороны! Обязательно хочу ещё не раз пройтись по истории Санкт-Петербурга в вашей компании!!!</div>
+                                </div>
+                            </div>
+                            <div class="reviews__item  reviews-slide">
+                                <div class="reviews-slide__inner">
+                                    <div class="reviews-slide__header">
+                                        <div class="reviews__user">
+                                            <div class="reviews-slide__img">
+                                                <img src="assets/images/reviews/placehold.jpg" alt="">
+                                            </div>
+                                            <div class="reviews-slide__name">Людмила</div>
+                                        </div>
+                                        <div class="reviews-slide__stars">
+                                            <span class="reviews-slide__star"><img src="assets/images/icon-star.png" alt=""></span>
+                                            <span class="reviews-slide__star"><img src="assets/images/icon-star.png" alt=""></span>
+                                            <span class="reviews-slide__star"><img src="assets/images/icon-star.png" alt=""></span>
+                                            <span class="reviews-slide__star"><img src="assets/images/icon-star.png" alt=""></span>
+                                            <span class="reviews-slide__star"><img src="assets/images/icon-star.png" alt=""></span>
+                                        </div>
+                                    </div>
+                                    <div class="reviews-slide__text">Огромная благодарность Софии за увлекательнейшее путешествие по городу и музеям! Увидела город с другой стороны! Обязательно хочу ещё не раз пройтись по истории Санкт-Петербурга в вашей компании!!!</div>
+                                </div>
+                            </div>
+                            <div class="reviews__item  reviews-slide">
+                                <div class="reviews-slide__inner">
+                                    <div class="reviews-slide__header">
+                                        <div class="reviews__user">
+                                            <div class="reviews-slide__img">
+                                                <img src="assets/images/reviews/placehold.jpg" alt="">
+                                            </div>
+                                            <div class="reviews-slide__name">Людмила</div>
+                                        </div>
+                                        <div class="reviews-slide__stars">
+                                            <span class="reviews-slide__star"><img src="assets/images/icon-star.png" alt=""></span>
+                                            <span class="reviews-slide__star"><img src="assets/images/icon-star.png" alt=""></span>
+                                            <span class="reviews-slide__star"><img src="assets/images/icon-star.png" alt=""></span>
+                                            <span class="reviews-slide__star"><img src="assets/images/icon-star.png" alt=""></span>
+                                            <span class="reviews-slide__star"><img src="assets/images/icon-star.png" alt=""></span>
+                                        </div>
+                                    </div>
+                                    <div class="reviews-slide__text">Огромная благодарность Софии за увлекательнейшее путешествие по городу и музеям! Увидела город с другой стороны! Обязательно хочу ещё не раз пройтись по истории Санкт-Петербурга в вашей компании!!!</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
 
         <footer class="footer" id="footer">
             <div class="form">
                 <div class="container">
                     <div class="form__inner">
-                        <h3 class="form__title  form__title_white">@@titleForm</h3>
+                        <h3 class="form__title  form__title_white" data-aos="fade-up">Оставить отзыв о наше работе</h3>
                         <form class="form__wrapper" action="/">
-                            <textarea class="form__input  form__input-area" name="" id="" placeholder="Ваш отзыв"></textarea>
-                            <div class="form__casing">
+                            <textarea class="form__input  form__input-area" name="" id="" placeholder="Ваш отзыв" data-aos="fade-right"></textarea>
+                            <div class="form__casing" data-aos="fade-left">
                                 <div class="form__group">
                                     <input class="form__input" type="text" placeholder="Ваше имя">
                                 </div>
